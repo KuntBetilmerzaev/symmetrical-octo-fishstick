@@ -148,6 +148,7 @@ select {
 table {
     width: 300px;
     height: 196px;
+    font-size: 14px;
 }
 
 th, td {
