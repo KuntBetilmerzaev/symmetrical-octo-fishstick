@@ -5,9 +5,9 @@
 }
 
 body {
-    background: #fff;
     width: 1440px;
     height: 2047px;
+    color: rgb(48, 48, 48)
 }
 
 header {
@@ -28,6 +28,7 @@ span {
 .main-section {
     width: 1440px;
     height: 1024px;
+    padding: 60px 0px;
     background: #fafaff;
 }
 
@@ -49,7 +50,7 @@ span {
 }
 
 .main-image {
-    width: 715px;
+    max-width: 715px;
     height: 508px;
 }
 
@@ -59,8 +60,8 @@ span {
     height: 883px;
     margin-top: 100px;
     margin-bottom: 100px;
+    padding: 100px 0px;
     background: #fafaff
-    
 }
 
 select {
@@ -97,7 +98,7 @@ select {
     list-style-type: none;
     list-style-image: url(images/Vector1.svg);
     
-    padding-left: 20px;
+    padding: 0px 20px;
     
 }
 
@@ -106,7 +107,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 
 .label {
@@ -153,14 +154,14 @@ th, td {
     font-family: "Inter", sans-serif;
     margin-top: 10px;
     margin-bottom: 11px;
+    padding: 12px 15px;
 }
 
 footer {
     width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.3);
-    padding-top: 26px;
-    padding-bottom: 25px;
+    padding: 26px 0px;
 }
 
 .footer-link {
