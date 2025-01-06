@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    letter-spacing: normal;
-    background: #303030
+    background: #fff;
+    width: 1440px;
+    height: 2047px;
 }
 
 header {
