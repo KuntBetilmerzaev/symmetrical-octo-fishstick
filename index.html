@@ -11,58 +11,59 @@
 </head>
 <body>   
     <header>
-        <span>IT-INCUBATOR</span>
+        <span data-cy="hw2-header-span">IT-INCUBATOR</span>
     </header>
-    <section class="main-section" data-cy="hw1-section-main-pre">
-        <h1 class="main-title">Бетильмерзаев Кунт Хасмагомедович</h1>
-        <p class="main-text">Учусь в нефтяном университете, а также дополнительно учусь на Frontend-разработчика в IT-INCUBATOR. Надеюсь свзать с этим свою жизнь</p>
-        <img class="main-image" src="images/image.png" alt="image">
+    <section class="main-section" data-cy="hw2-section-main-pre">
+        <h1 class="main-title" data-cy="hw2-main-title">Бетильмерзаев Кунт Хасмагомедович</h1>
+        <p class="main-text" data-cy="hw2-text">Учусь в нефтяном университете, а также дополнительно учусь на Frontend-разработчика в IT-INCUBATOR. Надеюсь свзать с этим свою жизнь</p>
+        <img class="main-image" src="images/image.png" alt="image" data-cy="hw2-main-image">
     </section>
 
-    <section class="about-section" data-cy="hw1-section-about-pre">
-        <select>
+    <section class="about-section" data-cy="hw2-section-about-pre">
+        <select data-cy="hw2-select-pre" name="" data-cy="">
             <option>Грозный</option>
             <option selected>Урус-Мартан</option>
             <option>Махачкала</option>
         </select>
-        <div data-cy="hw1-unordered-list-box-pre">
-            <h2 class="section-title">Любимые книги</h2>
-            <ul class="frameworks-list">
+
+        <div>
+            <h2 class="section-title" data-cy="hw2-section-title-pre">Любимые книги</h2>
+            <ul class="frameworks-list" data-cy="hw2-frameworks-list-pre">
                 <li>Овод</li>
                 <li>Будда и Бунтарь</li>
                 <li>Цветы для Элджернона</li>
             </ul>
         </div>
-        <div data-cy="hw1-ordered-list-box-pre">
-            <h2 class="section-title">Любимые фильмы</h2>
-            <ol class="books-list">
+        <div>
+            <h2 class="section-title" data-cy="hw2-section-title-pre">Любимые фильмы</h2>
+            <ol class="books-list" data-cy="hw2-books-list-pre">
                 <li>Драйв</li>
                 <li>Животное</li>
                 <li>Пока я жив</li>
             </ol>
         </div>
-        <div data-cy="hw1-skills-box-pre">
-            <h2 class="section-title">Мои скиллы</h2>
-                <label class="label">
-                    <input type="checkbox" checked>
+        <div>
+            <h2 class="section-title" data-cy="hw2-section-title-pre">Мои скиллы</h2>
+                <label class="label" data-cy="hw2-label-pre" for="1">
+                    <input type="checkbox" checked name="" id="1"> 
                     HTML5
                 </label>
 
-                <label class="label">
-                    <input type="checkbox">
+                <label class="label" data-cy="hw2-label-pre" for="2">
+                    <input type="checkbox" name="" id="2">
                     CSS3
                 </label>
 
-                <label class="label">
-                    <input type="checkbox" checked>
+                <label class="label" data-cy="hw2-label-pre" for="3">
+                    <input type="checkbox" checked name="" id="3">
                     JS
                 </label>
         </div>
-        <input class="text-field" placeholder="Новый скилл" type="text">
-        <button class="btn">Добавить</button>
-        <hr class="line">
+        <input class="text-field" data-cy="hw2-text-field-pre" placeholder="Новый скилл" type="text">
+        <button class="btn" data-cy="hw2-btn-pre">Добавить</button>
+        <hr class="line" data-cy="hw2-line-pre">
 
-        <table border="1" data-cy="hw-about-table-pre">
+        <table data-cy="hw-about-table-pre" border="1">
             
             <tr>
                 <th>Номер</th>
@@ -94,9 +95,9 @@
             </tr>
         </table>
     </section>
-    <footer data-cy="hw-footer-link-pre">
+    <footer data-cy="hw-footer-pre">
         <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
-        <a class="footer-link" href="https://it-incubator.io/">it-incubator</a>
+        <a class="footer-link" data-cy="hw-footer-link-pre" href="https://it-incubator.io/">it-incubator</a>
     </footer>
 
 </body>
